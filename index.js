@@ -15,5 +15,7 @@ module.exports = {
     } ],
     'no-undef': 2,                 // http://eslint.org/docs/rules/no-undef
     'react/no-multi-comp': 0,
+    'react/prefer-es6-class': 0,
+    'react/prefer-stateless-function': 0,
   },
 };
