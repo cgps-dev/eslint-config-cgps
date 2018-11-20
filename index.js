@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './airbnb',
+    './airbnb/index.js',
     'plugin:import/errors',
   ],
   parser: 'babel-eslint',
@@ -13,8 +13,8 @@ module.exports = {
     'handle-callback-err': [ 2, 'error' ], // http://eslint.org/docs/rules/handle-callback-err
     'func-names': 0, // http://eslint.org/docs/rules/func-names
     'space-before-function-paren': [ 2, { // http://eslint.org/docs/rules/space-before-function-paren
-      'anonymous': 'always',
-      'named': 'never'
+      anonymous: 'always',
+      named: 'never',
     } ],
     'no-undef': 2, // http://eslint.org/docs/rules/no-undef
     'react/no-multi-comp': 0,

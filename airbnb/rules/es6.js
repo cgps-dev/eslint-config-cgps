@@ -5,11 +5,6 @@ module.exports = {
   'parserOptions': {
     'ecmaVersion': 6,
     'sourceType': 'module',
-    'ecmaFeatures': {
-      'jsx': true,
-      'generators': false,
-      'objectLiteralDuplicateProperties': false
-    }
   },
   'rules': {
     // enforces no braces where they can be omitted
