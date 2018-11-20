@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'airbnb',
+    './airbnb',
     'plugin:import/errors',
   ],
   parser: 'babel-eslint',
@@ -21,6 +21,6 @@ module.exports = {
     'react/prefer-es6-class': 0,
     'react/prefer-stateless-function': 0,
     'no-whitespace-before-property': 2,
-    'newline-per-chained-call': [ 2, { ignoreChainWithDepth: 4 } ]
+    'newline-per-chained-call': [ 2, { ignoreChainWithDepth: 4 } ],
   },
 };
