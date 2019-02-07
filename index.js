@@ -1,6 +1,7 @@
 module.exports = {
   extends: [ './airbnb/index.js', 'plugin:import/errors' ],
   parser: 'babel-eslint',
+  plugins: [ 'react-hooks' ],
   rules: {
     'spaced-comment': 2, // http://eslint.org/docs/rules/spaced-comment
     'object-curly-spacing': [ 2, 'always' ], // http://eslint.org/docs/rules/object-curly-spacing
